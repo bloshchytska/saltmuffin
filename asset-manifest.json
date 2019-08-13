@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saltmuffin/static/css/main.b8c7615a.chunk.css",
-    "main.js": "/saltmuffin/static/js/main.dfe7d1f0.chunk.js",
-    "main.js.map": "/saltmuffin/static/js/main.dfe7d1f0.chunk.js.map",
-    "runtime~main.js": "/saltmuffin/static/js/runtime~main.a671b4ac.js",
-    "runtime~main.js.map": "/saltmuffin/static/js/runtime~main.a671b4ac.js.map",
-    "static/js/2.d4bb6c7f.chunk.js": "/saltmuffin/static/js/2.d4bb6c7f.chunk.js",
-    "static/js/2.d4bb6c7f.chunk.js.map": "/saltmuffin/static/js/2.d4bb6c7f.chunk.js.map",
-    "index.html": "/saltmuffin/index.html",
-    "precache-manifest.4c6935e139164601dd3984b9ad2f0f68.js": "/saltmuffin/precache-manifest.4c6935e139164601dd3984b9ad2f0f68.js",
-    "service-worker.js": "/saltmuffin/service-worker.js",
-    "static/css/main.b8c7615a.chunk.css.map": "/saltmuffin/static/css/main.b8c7615a.chunk.css.map"
+    "main.css": "/static/css/main.b8c7615a.chunk.css",
+    "main.js": "/static/js/main.dc694a6d.chunk.js",
+    "main.js.map": "/static/js/main.dc694a6d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.191dde89.js",
+    "runtime~main.js.map": "/static/js/runtime~main.191dde89.js.map",
+    "static/js/2.d4bb6c7f.chunk.js": "/static/js/2.d4bb6c7f.chunk.js",
+    "static/js/2.d4bb6c7f.chunk.js.map": "/static/js/2.d4bb6c7f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ca03d805a8c9a488fdf97e7d94315b06.js": "/precache-manifest.ca03d805a8c9a488fdf97e7d94315b06.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b8c7615a.chunk.css.map": "/static/css/main.b8c7615a.chunk.css.map"
   }
 }
