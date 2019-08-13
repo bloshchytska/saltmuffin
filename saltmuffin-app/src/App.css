@@ -1,5 +1,6 @@
 
 .welcome-body {
+  background-color: whitesmoke;
   padding: 2em;
   height: 100vh;
   width: 100vw;
@@ -48,7 +49,6 @@
   justify-content: center;
   margin: .5em 0;
   padding: 0.1em 0.5em 0.5em .1em;
-  background-color: #fff;
   transition: background-color .1s linear;
 }
 .body-actions__action__underline {
