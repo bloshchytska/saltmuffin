@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be390c84018e5abdb4b2922b94775d02",
+    "revision": "34148e82c66f04f8a57794561f72bccd",
     "url": "/saltmuffin/index.html"
   },
   {
-    "revision": "ca3c7fb209a36c0008d0",
+    "revision": "10d9e799b0b6d0f7650d",
     "url": "/saltmuffin/static/css/main.b8c7615a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/saltmuffin/static/js/2.d4bb6c7f.chunk.js"
   },
   {
-    "revision": "ca3c7fb209a36c0008d0",
-    "url": "/saltmuffin/static/js/main.dfe7d1f0.chunk.js"
+    "revision": "10d9e799b0b6d0f7650d",
+    "url": "/saltmuffin/static/js/main.4851e972.chunk.js"
   },
   {
     "revision": "b39e97eaa2e95abde5bb",

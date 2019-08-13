@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/saltmuffin/static/css/main.b8c7615a.chunk.css",
-    "main.js": "/saltmuffin/static/js/main.dfe7d1f0.chunk.js",
-    "main.js.map": "/saltmuffin/static/js/main.dfe7d1f0.chunk.js.map",
+    "main.js": "/saltmuffin/static/js/main.4851e972.chunk.js",
+    "main.js.map": "/saltmuffin/static/js/main.4851e972.chunk.js.map",
     "runtime~main.js": "/saltmuffin/static/js/runtime~main.a671b4ac.js",
     "runtime~main.js.map": "/saltmuffin/static/js/runtime~main.a671b4ac.js.map",
     "static/js/2.d4bb6c7f.chunk.js": "/saltmuffin/static/js/2.d4bb6c7f.chunk.js",
     "static/js/2.d4bb6c7f.chunk.js.map": "/saltmuffin/static/js/2.d4bb6c7f.chunk.js.map",
     "index.html": "/saltmuffin/index.html",
-    "precache-manifest.7d6c08f99278a46370b0351ca42afdf0.js": "/saltmuffin/precache-manifest.7d6c08f99278a46370b0351ca42afdf0.js",
+    "precache-manifest.682f619a8cb14d800088e021bf7ec59c.js": "/saltmuffin/precache-manifest.682f619a8cb14d800088e021bf7ec59c.js",
     "service-worker.js": "/saltmuffin/service-worker.js",
     "static/css/main.b8c7615a.chunk.css.map": "/saltmuffin/static/css/main.b8c7615a.chunk.css.map"
   }
