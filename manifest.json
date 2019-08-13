@@ -2,7 +2,5 @@
   "short_name": "salt-muffin-app",
   "name": "Salt Muffin Website",
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }
