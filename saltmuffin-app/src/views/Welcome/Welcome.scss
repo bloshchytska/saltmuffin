@@ -31,14 +31,6 @@
 
 
 
-@keyframes img-on-hover-anim {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .body-title__name {
   position: relative;
   span {
@@ -92,44 +84,5 @@
   width: 1.5em;
   height: auto;
   margin: 0 auto;
-}
-
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media only screen and (max-width: 1024px)  {
-
-
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media only screen and (max-width: 667px) {
-
-
-}
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media only screen and (max-width: 480px) {
-
-  .welcome-body {
-    font-size: 80%;
-  }
-  .welcome-body__wrapper {
-    margin: 1em;
-  }
-  .body-title__name span {
-    right: 1em;
-  }
 }
 

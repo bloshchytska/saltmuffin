@@ -1,8 +1,60 @@
 body {
   margin: 0;
   padding: 0;
+    background-color: whitesmoke;
 }
 
 * {
   box-sizing: border-box;
 }
+
+
+@keyframes img-on-hover-anim {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (max-width: 1024px)  {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (max-width: 667px) {
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media only screen and (max-width: 480px) {
+
+    .welcome-body {
+        font-size: 80%;
+    }
+    .welcome-body__wrapper {
+        margin: 1em;
+    }
+    .body-title__name span {
+        right: 1em;
+    }
+}
+
+

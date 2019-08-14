@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  user-select: none;
 }
 .body-actions__action {
   position: relative;
@@ -41,14 +42,5 @@
   }
   &:hover img {
     animation: img-on-hover-anim 1.5s infinite linear;
-  }
-}
-
-@keyframes img-on-hover-anim {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }

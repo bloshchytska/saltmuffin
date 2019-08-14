@@ -9,7 +9,6 @@ const welcomeButton = (props) => {
                      src={props.buttonImg}/>
                 <span>{props.buttonTitle}</span>
             </div>
-
         </div>
     );
 };

@@ -1,0 +1,41 @@
+a {
+  color: #000;
+  text-decoration-line: none;
+  &:visited {
+    color: #000;
+  }
+}
+
+.wave-link {
+  padding-bottom: 15px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzFfMV8iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iNzY4cHgiIGhlaWdodD0iNzY4cHgiIHZpZXdCb3g9IjAgMCA3NjggNzY4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA3NjggNzY4IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGQ9Ik0tMTA1Ljg2LDQxNS44MzRjNDIuMDY2LDM5Ljc5Myw4Ny4zNjgsODcuNTQ0LDE3Ny45NzIsODcuNTQ0czEzNS45MDYtNDcuNzUxLDE3Ny45NzItODcuNTQ0DQoJYzM1LjU5NS0zOS43OTIsNjcuOTUzLTcxLjYyNywxMzUuOTA1LTcxLjYyN2M2Ny45NTQsMCw5Ny4wNzYsMzEuODM0LDEzNS45MDYsNzEuNjI3YzQyLjA2NSwzOS43OTMsODcuMzY4LDg3LjU0NCwxNzcuOTcyLDg3LjU0NA0KCXMxMzUuOTA1LTQ3Ljc1MSwxNzcuOTczLTg3LjU0NGwtNDUuMzAzLTM1LjgxM2MtMzUuNTk1LDM5Ljc5My02Ny45NTIsNzEuNjI3LTEzNS45MDUsNzEuNjI3cy05Ny4wNzYtMzEuODM0LTEzNS45MDYtNzEuNjI3DQoJYy0zOC44My0zOS43OTItODcuMzY4LTg3LjU0NC0xNzQuNzM2LTg3LjU0NGMtOTAuNjA0LDAtMTM1LjkwNiw0Ny43NTEtMTc3Ljk3Miw4Ny41NDRjLTM4LjgzLDM5Ljc5My02Ny45NTMsNzEuNjI3LTEzNS45MDYsNzEuNjI3DQoJcy05Ny4wNzYtMzEuODM0LTEzNS45MDYtNzEuNjI3TC0xMDUuODYsNDE1LjgzNHoiLz4NCjwvc3ZnPg0K');
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 13px 32px;
+  background-position: 2px 19px;
+  animation: move 65s linear infinite;
+  -webkit-animation: move 65s linear infinite;
+  animation-play-state: paused;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave-link:hover {
+  animation-play-state: running;
+}
+
+
+
+
+@keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
