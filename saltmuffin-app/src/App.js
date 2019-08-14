@@ -9,9 +9,8 @@ class App extends Component {
     return (
         <div>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + '/'} component={ Welcome }/>
-            <Route path={process.env.PUBLIC_URL + '/contact'} component={ Contact }/>
-            <Route component={() => (<div>404 Not found </div>)} />
+            <Route exact path="/"  component={ Welcome }/>
+            <Route path="/contact"  component={ Contact }/>
           </Switch>
         </div>
     );

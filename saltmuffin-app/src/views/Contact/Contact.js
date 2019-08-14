@@ -8,7 +8,7 @@ const contact = () => {
            <div className="contact-wrapper">
                <div className="contact-wrapper__header">
                   <div className="contact-wrapper__header__close-link">
-                      <Link to={process.env.PUBLIC_URL + "/"}> × </Link>
+                      <Link to="/"> × </Link>
                   </div>
                </div>
                <div className="contact-wrapper__content">
