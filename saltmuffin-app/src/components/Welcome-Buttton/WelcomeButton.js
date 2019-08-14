@@ -1,5 +1,5 @@
 import React from 'react';
-import './WelcomeButton.css';
+import './WelcomeButton.scss';
 
 const welcomeButton = (props) => {
     return (

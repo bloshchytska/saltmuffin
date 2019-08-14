@@ -1,5 +1,5 @@
 import React from 'react';
-import './Welcome.css';
+import './Welcome.scss';
 import WelcomeButton from "../../components/Welcome-Buttton/WelcomeButton";
 
 const welcome = () => {

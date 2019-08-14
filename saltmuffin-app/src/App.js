@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Welcome from './views/Welcome/Welcome';
 
 function App() {
