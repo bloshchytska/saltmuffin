@@ -1,16 +1,18 @@
 import React from 'react';
 import './WelcomeButton.scss';
+import {Link} from "react-router-dom";
 
-const welcomeButton = (props) => {
-    return (
-        <div className="body-actions__action">
+const WelcomeButton = props => (
+    <div className="body-actions__action">
+        <Link to={props.linkTo ? props.linkTo : "#"}>
+
             <div className="body-actions__action__underline">
-                <img alt={props.buttonTitle}
-                     src={props.buttonImg}/>
-                <span>{props.buttonTitle}</span>
+                <img alt={ props.buttonTitle ? props.buttonTitle : "" }
+                     src= { props.buttonImg }/>
+                <span> { props.buttonTitle }</span>
             </div>
-        </div>
-    );
-};
+        </Link>
+    </div>
+);
 
-export default welcomeButton;
+export default WelcomeButton;

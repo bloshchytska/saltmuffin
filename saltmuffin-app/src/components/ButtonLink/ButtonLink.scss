@@ -1,0 +1,17 @@
+.link-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.link {
+  margin: .5em;
+  padding: .3em;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.link--w-bg {
+  color: #000;
+  background-color: transparent;
+}

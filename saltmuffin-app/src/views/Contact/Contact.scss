@@ -29,7 +29,7 @@
       width: 200px;
       display: flex;
       justify-content: center;
-      margin-bottom: 3em;
+      margin: auto;
       align-items: center;
       img {
         -webkit-transition: all 3s ease-in-out 2s;
@@ -37,13 +37,70 @@
         animation: img-on-hover-anim 45s infinite linear;
       }
     }
+    .contact-wrapper__img-bg {
+      position: relative;
+      z-index: 1;
+      img {
+        position: absolute;
+        top: -2em;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+      }
+
+    }
     .contact-wrapper__email {
       text-align: center;
-      color: #000;
       font-family: sans-serif;
       font-weight: 800;
-      margin: 1em auto;
-      font-size: 1.3em;
+      margin: 1em auto 1em;
+      font-size: 1.5em;
     }
+  }
+}
+
+
+.social-content {
+  margin-top: 1em;
+  font-size: 1.3em;
+  font-family: sans-serif;
+
+  letter-spacing: 0.04em;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  .social-content__title {
+    font-style: italic;
+    &:before {
+      content: '... ';
+    }
+    &:after {
+      content: ':';
+    }
+
+  }
+  .social-content__social-links {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-content__kirikia {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.contact-wrapper__header__close-link a {
+  &:visited {
+    color: #000;
   }
 }

@@ -44,3 +44,9 @@
     animation: img-on-hover-anim 1.5s infinite linear;
   }
 }
+
+.body-actions__action a {
+  &:visited {
+    color: #000;
+  }
+}
