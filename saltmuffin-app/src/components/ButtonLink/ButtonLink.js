@@ -6,7 +6,7 @@ const ButtonLink = props => (
         <div className="link-img">
             <img src={props.linkImgSrc}  alt={props.linkImgAlt} />
         </div>
-        <a  className={props.styleClass ? "link--w-bg" : "link"}
+        <a  className="link wave-link"
             href={props.link}
             target="_blank"
             rel="noopener noreferrer"

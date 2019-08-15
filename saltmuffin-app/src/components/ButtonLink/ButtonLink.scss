@@ -1,17 +1,13 @@
 .link-wrapper {
   display: flex;
+  text-align: center;
+  font-family: sans-serif;
   flex-flow: row nowrap;
 }
 
 .link {
   margin: .5em;
   padding: .3em;
-
-  background-color: #000;
-  color: #fff;
-}
-
-.link--w-bg {
+  text-align: center;
   color: #000;
-  background-color: transparent;
 }
