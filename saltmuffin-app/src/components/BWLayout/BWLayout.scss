@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1em 2em 2em;
+  margin: auto;
+  font-size: 1.3em;
+  text-align: center;
+
+  .wrapper__header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    .wrapper__header__close-link {
+      text-underline-style: none;
+      color: #000;
+      font-family: sans-serif;
+      font-weight: 800;
+      font-size: 2em;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+}
+
+.wrapper__header__close-link a {
+  &:visited {
+    color: #000;
+  }
+}
