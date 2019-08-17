@@ -4,5 +4,23 @@
   align-items: center;
   height: 300px;
   width: 200px;
+
   margin: 0 auto 1em;
+  div {
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    background-position: center;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .grid-item {
+    width: 100%;
+    div {
+      width: 100%;
+    }
+  }
 }

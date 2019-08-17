@@ -3,11 +3,7 @@ import './GridItem.scss';
 
 const GridItem = props =>  {
     let styles = {
-        backgroundImage: 'url(' + props.image + ')',
-        backgroundSize: 'cover',
-        width: '200px',
-        height: '300px',
-        backgroundPosition: 'center'
+        backgroundImage: 'url(' + props.image + ')'
     };
 
     return (
