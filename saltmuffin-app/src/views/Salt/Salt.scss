@@ -9,7 +9,20 @@
   width: 100%;
   background: #000;
   display: block;
+  bottom: 0;
+  top: 0;
   position: absolute;
+  overflow: hidden;
 }
 
+
+.iframe-wrapper {
+  overflow: auto;
+  margin-top: 1em;
+  iframe {
+    margin: auto;
+    width: 500px;
+    height: 807px;
+  }
+}
 

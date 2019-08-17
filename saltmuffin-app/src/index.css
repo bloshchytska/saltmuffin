@@ -55,6 +55,12 @@ body {
     .body-title__name span {
         right: 1em;
     }
+    .iframe-wrapper {
+        height: 500px;
+    }
+    iframe {
+        width: 100%;
+    }
 }
 
 
