@@ -1,23 +1,66 @@
 .wrapper {
   display: flex;
   flex-flow: column nowrap;
-  padding: 1em 2em 2em;
   margin: auto;
   font-size: 1.3em;
   text-align: center;
 
   .wrapper__header {
+    font-family: sans-serif;
+    font-weight: 800;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-end;
+    padding: .5em 1em .5em;
+    justify-content: space-between;
+    align-items: center;
+    .wrapper__header__button {
+      cursor: pointer;
+      user-select: none;
+      background: hotpink;
+      font-weight: 200;
+      border-bottom: 4px solid #dc51b5;
+      border-radius: 14px;
+      padding: .3em .5em;
+      border: 1px solid #dc51b5;
+      border-bottom: 4px solid #dc51b5;
+      color: #ffffff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    }
     .wrapper__header__close-link {
       text-underline-style: none;
       color: #000;
       font-family: sans-serif;
-      font-weight: 800;
+      font-weight: 100;
       font-size: 2em;
       cursor: pointer;
       user-select: none;
+    }
+  }
+
+  .header-wrapper {
+    z-index: 2;
+  }
+  .wrapper__sub-header {
+    text-align: left;
+    font-size: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.6em 1em 0.6em;
+    display: flex;
+    font-weight: 200;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      margin-right: .5em;
+      height: 1.5em;
+      width: auto;
+    }
+    .wrapper__sub-header__muffin {
+      font-weight: 600;
+      margin-right: .5em;
+    }
+    .wrapper__sub-header__title {
+      font-style: italic;
     }
   }
 

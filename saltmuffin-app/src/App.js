@@ -8,6 +8,7 @@ import Salt from "./views/Salt/Salt";
 
 class App extends Component {
   render() {
+
     return (
         <div>
             <HashRouter basename="/">
