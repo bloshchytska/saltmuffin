@@ -46,7 +46,8 @@
   align-items: center;
 
   .social-content__title {
-    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
     &:before {
       content: '... ';
     }
@@ -62,6 +63,10 @@
     justify-content: center;
   }
   .social-content__kirikia {
+   .social-content__kirikia__content {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.2em;
+    }
     margin-top: 1em;
     display: flex;
     flex-flow: column;
