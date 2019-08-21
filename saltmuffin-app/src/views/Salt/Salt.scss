@@ -1,5 +1,5 @@
 .Salt {
-  .wrapper {
+  .wrapper__header {
     background: var(--salt-sub-header-bg-color-4);
   }
 
@@ -24,3 +24,12 @@
   width: 100%;
 }
 
+.Salt .header-wrapper {
+  z-index: 2;
+  background: white;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
