@@ -5,10 +5,6 @@
   --base-ease: cubic-bezier(0.25, 0.46, 0.45, 0.84);
 }
 
-  h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-  }
-
   .visuallyhidden {
     clip: rect(1px, 1px, 1px, 1px);
 
@@ -108,7 +104,7 @@
 
     position: absolute;
     bottom: 0;
-    top: 9em;
+    top: 4em;
     left: 0;
     right: 0;
   }
@@ -229,13 +225,12 @@
   }
 
   .slide__headline {
-    font-size: 4.5vmin;
-    font-weight: 600;
+    font-weight: 100;
     color: #fff;
-    background-color: var(--salt-header-bg-color);
+    background-color: #232323;
     position: relative;
     bottom: -80%;
-    padding: .1em .2em;
+    padding: .1em 0.3em 0.2em;
   }
 
   .slide__content {

@@ -4,7 +4,7 @@ import SaltCarousel from "../../components/SaltCarousel/SaltCarousel";
 import BWLayout from "../../components/BWLayout/BWLayout";
 import {Helmet} from 'react-helmet';
 
-const slideData = [
+const pinches = [
     {
         index: 0,
         headline: 'Pinch of Salt N 1',
@@ -37,12 +37,11 @@ class Salt extends Component {
                 </Helmet>
 
                 <BWLayout
-                    headerLinkName="Saltmuffin Fridge"
                     subHeaderTitle={currentProjectName}>
                     <SaltCarousel
                         flow="column"
                         controll={false}
-                        slides={slideData}
+                        slides={pinches}
                         heading="Salt Muffin Projects"/>
                 </BWLayout>
             </div>
