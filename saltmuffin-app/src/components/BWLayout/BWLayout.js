@@ -16,10 +16,10 @@ class BWLayout extends Component {
                         </div>
                         {this.props.subHeaderTitle ?
                             <div className="wrapper__sub-header">
-                                <div className="wrapper__sub-header__muffin">
+                                <div className="wrapper__sub-header__title">
                                     Current Muffin:
                                 </div>
-                                <div className="wrapper__sub-header__title">
+                                <div className="wrapper__sub-header__muffin">
                                     {this.props.subHeaderTitle}
                                 </div>
                             </div>
@@ -32,6 +32,13 @@ class BWLayout extends Component {
                                         symbol="⛄"
                                     />
                                     {this.props.headerLinkName}
+                                </div>
+                                : null
+                        }
+                        {
+                            this.props.headerAction ?
+                                <div className="wrapper__header__button">
+                                    {this.props.headerActionName}
                                 </div>
                                 : null
                         }
