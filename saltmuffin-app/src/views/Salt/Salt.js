@@ -4,6 +4,15 @@ import SaltCarousel from "../../components/SaltCarousel/SaltCarousel";
 import BWLayout from "../../components/BWLayout/BWLayout";
 import {Helmet} from 'react-helmet';
 
+
+
+// dino
+// sputnik
+// paintings
+// ink
+// digital art
+// collage
+
 const pinches = [
     {
         index: 0,
