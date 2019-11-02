@@ -1,7 +1,5 @@
 .Salt {
-  .wrapper__header {
-    background: var(--salt-sub-header-bg-color-4);
-  }
+
 
   .wrapper__header__close-link a {
     color: #16374a;
@@ -26,10 +24,10 @@
 
 .Salt .header-wrapper {
   z-index: 2;
-  background: white;
+  background: var(--salt-bg-color);
   position: fixed;
   top: 0;
   overflow: hidden;
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  //box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
