@@ -16,9 +16,6 @@ class BWLayout extends Component {
                         </div>
                         {this.props.subHeaderTitle ?
                             <div className="wrapper__sub-header">
-                                <div className="wrapper__sub-header__title">
-                                    Current Muffin:
-                                </div>
                                 <div className="wrapper__sub-header__muffin">
                                     {this.props.subHeaderTitle}
                                 </div>

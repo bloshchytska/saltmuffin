@@ -8,7 +8,7 @@ const GridItem = props =>  {
 
     return (
         <div className="grid-item">
-            <div style={styles}/>
+            <img src={props.image} alt=""/>
         </div>
     );
 };

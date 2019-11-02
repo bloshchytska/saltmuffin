@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 200px;
+
+  width: 30vh;
 
   margin: 0 auto 1em;
   div {
@@ -14,6 +14,9 @@
   }
 }
 
+.grid-item img {
+  width: 100%;
+}
 
 @media only screen and (max-width: 480px) {
 
